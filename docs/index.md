@@ -1,17 +1,18 @@
-# Bienvenido Arterland
+# Arter Wiki  
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bienvenido a mi espacio creativo y de organización.  
+Aquí recopilo ideas, aprendizajes y proyectos que mezclan **publicidad, storytelling y tecnología**.  
 
-## Commands
+Trabajo como **creativo y content creator**, desarrollando campañas para marcas globales como **BMW, MINI, BYD y Motorrad**, siempre buscando un enfoque disruptivo y con narrativa visual.  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ¿Qué encontrarás aquí?  
 
-## Project layout
+- 🌟 **Conceptos creativos**: ideas de campañas, activaciones y marketing de guerrilla.  
+- 🎥 **Producción de contenido**: guías para videos, BTS, storytelling y narrativa visual con estética vintage.  
+- 🚗 **Automotriz & movilidad**: proyectos y notas de campañas para el sector automotriz y sostenibilidad.  
+- 🛠️ **Herramientas & sistemas**: procesos, hacks y recursos para organizar y escalar trabajo creativo.  
+- 🌐 **Exploración personal**: reflexiones, proyectos experimentales y apuntes de crecimiento.  
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+Este Wiki es mi **laboratorio de ideas**: un lugar vivo, donde conviven lo estratégico y lo artístico, lo técnico y lo narrativo.  
