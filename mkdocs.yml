@@ -1,1 +1,44 @@
-site_name: Arterland
+site_name: Arterland — Creative Portfolio
+site_url: https://tuusuario.github.io/portfolio/
+site_author: Ezequiel
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - header.autohide
+    - content.code.annotate
+  palette:
+    primary: white
+    accent: blue
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/brush
+extra_css:
+  - recursos/estilos.css
+nav:
+  - Inicio: index.md
+  - Sobre mí: about.md
+  - Marcas:
+      - BYD: marcas/byd.md
+      - BMW: marcas/bmw.md
+      - MINI: marcas/mini.md
+      - Motorrad: marcas/motorrad.md
+  - Campañas:
+      - BYD Huellas Limpias: campañas/byd-huellas-limpias.md
+      - BYD Shark Series: campañas/byd-shark-series.md
+      - BMW ConnectedDrive: campañas/bmw-connecteddrive.md
+      - MINI Open House: campañas/mini-open-house.md
+      - Motorrad Experiencia: campañas/motorrad-experiencia.md
+  - Contacto: contact.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra_css:
+  - styles/retro.css
+  - styles/buttons.css
+ 

@@ -324,3 +324,75 @@ El diseño exterior e interior refleja el carácter M: **parrilla M, capotas de 
 49. Haz tu test drive hoy mismo
     
 50. Conduce el futuro del rendimiento M
+
+
+
+### Variante 1
+
+Versátil, elegante y siempre conectado.  
+Con el sistema BMW Curved Display y la más avanzada conectividad digital, cada trayecto se siente inteligente. 
+
+---
+
+## Variante 2
+
+Compacto por fuera, inmenso por dentro.  
+El BMW X1 ofrece espacio flexible, maletero amplio y la comodidad premium que te acompaña en cada viaje.
+
+---
+
+### 🔹 Variante 3
+
+Eficiencia y potencia en perfecta armonía.  
+Motores BMW TwinPower Turbo que combinan rendimiento dinámico con bajo consumo.
+
+---
+
+### 🔹 Variante 4
+
+Diseñado para tu estilo de vida.  
+Con faros LED adaptativos y líneas atléticas, el X1 es pura presencia en la ciudad o la carretera.
+
+---
+
+### 🔹 Variante 5
+
+Tecnología que se adelanta a tu camino.  
+Asistentes de conducción inteligentes que te brindan seguridad y confianza en cada movimiento.
+
+---
+
+
+### Variante 6
+
+Un espacio que inspira.  
+Con acabados premium y tapicería refinada, cada detalle interior refleja sofisticación.
+
+---
+
+### 🔹 Variante 7
+
+Confort en cada milímetro.  
+Asientos ergonómicos y climatización automática que hacen cada trayecto más placentero.
+
+---
+
+### 🔹 Variante 8
+
+Conduce al ritmo de tus sentidos.  
+Iluminación ambiental personalizable para crear la atmósfera perfecta en cada viaje.
+
+---
+
+### 🔹 Variante 9
+
+Tu mundo, al alcance de un gesto.  
+BMW iDrive y control por voz para una experiencia intuitiva y conectada.
+
+---
+
+### 🔹 Variante 10
+
+Silencio que se siente.  
+Aislamiento acústico optimizado para disfrutar cada viaje en calma absoluta.
+
