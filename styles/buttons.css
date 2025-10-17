@@ -1,0 +1,48 @@
+/* === RETRO 8-BIT STYLE BUTTONS === */
+
+:root {
+  --retro-accent: #ff6b6b;
+  --retro-accent-dark: #d84343;
+  --retro-shadow: #ffd93d;
+  --retro-text: #3c3c3c;
+}
+
+/* Botón principal */
+.md-button {
+  display: inline-block;
+  border: 2px solid var(--retro-text);
+  background-color: var(--retro-accent);
+  color: #fff !important;
+  padding: 0.7em 1.2em;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-family: 'Press Start 2P', monospace;
+  box-shadow: 3px 3px 0 var(--retro-shadow);
+  transition: all 0.15s ease;
+  text-transform: uppercase;
+}
+
+.md-button:hover {
+  background-color: var(--retro-accent-dark);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--retro-shadow);
+}
+
+/* === Evitar subrayado en botones === */
+.md-button,
+.md-button:hover,
+.md-button:focus {
+  text-decoration: none !important;
+}
+
+
+.md-button--secondary {
+  background-color: #fff;
+  color: var(--retro-text) !important;
+  border-color: var(--retro-text);
+}
+
+.md-button--secondary:hover {
+  background-color: var(--retro-shadow);
+  color: var(--retro-text) !important;
+}
