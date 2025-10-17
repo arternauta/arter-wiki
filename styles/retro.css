@@ -1,0 +1,40 @@
+/* === RETRO GLOBAL STYLE === */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&display=swap');
+
+/* Fondo general */
+body {
+  background-color: #f2efe9;
+  background-image: url('https://www.transparenttextures.com/patterns/noise.png');
+  background-repeat: repeat;
+  color: #3c3c3c;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+
+/* Títulos con fuente retro */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff6b6b;
+  margin-top: 1.2em;
+}
+
+/* Enlaces */
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Quitar subrayado en el menú al hacer hover === */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  text-decoration: none !important;
+}
