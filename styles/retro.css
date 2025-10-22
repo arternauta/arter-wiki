@@ -1,69 +1,130 @@
-/* Fondo general */
+/* ===========================
+   Fondo general y tipografía
+=========================== */
 .md-content {
-    background-color: #EDEDED;  /* color tipo papel */
+    background-color: #FDF6E3;  /* fondo beige claro */
     color: #3B3B3B;             /* texto gris oscuro */
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-/* Títulos */
+/* ===========================
+   Títulos (h1-h6)
+=========================== */
 h1, h2, h3, h4, h5, h6 {
-    color: #3B3B3B;
-    text-shadow: 1px 1px 0 #FFF; /* leve efecto pixel */
     font-family: 'Press Start 2P', monospace;
+    font-weight: normal;
+    color: #8B4513;            /* marrón retro */
+    text-shadow: 1px 1px 0 #FDF6E3; /* leve efecto pixel */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
 }
 
-/* Links */
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4, h5, h6 { font-size: 16px; }
+
+/* ===========================
+   Links
+=========================== */
 a {
-    color: #FF6F61; 
-    text-decoration: underline;
+    color: #FF6F61; /* rojo apagado */
+    text-decoration: none;
 }
 
 a:hover {
-    color: #D94B3B;
+    color: #FF8C42; /* naranja retro */
 }
 
-/* Botones */
+/* ===========================
+   Botones retro
+=========================== */
 button, .md-button {
-    background-color: #FF6F61;
-    border: 2px solid #3B3B3B;
-    color: #FFF;
     font-family: 'Press Start 2P', monospace;
-    padding: 6px 12px;
+    font-size: 12px;
+    background-color: #8B4513; /* marrón retro */
+    border: 2px solid #3B3B3B; /* gris oscuro */
+    color: #FFFFFF; /* texto blanco */
+    padding: 4px 8px;
     box-shadow: none;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
 }
 
 button:hover, .md-button:hover {
-    background-color: #D94B3B;
+    background-color: #FF6F61; /* rojo apagado */
     transform: scale(1.05);
 }
 
-/* Código */
+/* ===========================
+   Código y monospace
+=========================== */
 code {
-    background-color: #E0E0E0;
-    color: #3B3B3B;
+    background-color: #E0E0E0; /* gris claro */
+    color: #5C3317; /* marrón oscuro */
     font-family: 'JetBrains Mono', monospace;
     padding: 2px 4px;
+    font-size: 13px;
 }
 
-/* Tablas */
+/* ===========================
+   Tablas
+=========================== */
 table {
     border-collapse: collapse;
     width: 100%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
 }
 
 th, td {
-    border: 1px solid #3B3B3B;
-    padding: 6px;
+    border: 1px solid #3B3B3B; /* gris oscuro */
+    padding: 4px 6px;
     text-align: left;
-    font-family: 'Press Start 2P', monospace;
 }
 
 th {
-    background-color: #C0C0C0;
+    background-color: #C0C0C0; /* gris medio */
     color: #3B3B3B;
 }
 
 td {
-    background-color: #EDEDED;
+    background-color: #FDF6E3; /* beige claro */
     color: #3B3B3B;
+}
+
+/* ===========================
+   Extras: listas y bloques
+=========================== */
+ul, ol {
+    padding-left: 20px;
+}
+
+blockquote {
+    border-left: 3px solid #8B4513; /* marrón retro */
+    padding-left: 10px;
+    margin-left: 0;
+    color: #3B3B3B;
+    background-color: #FFFFF0; /* blanco roto */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* ===========================
+   Ajustes de navegación
+=========================== */
+.md-nav__title {
+    font-family: 'Press Start 2P', monospace;
+    color: #8B4513; /* marrón retro */
+}
+
+.md-nav__link {
+    color: #3B3B3B;
+}
+
+.md-nav__link:hover {
+    color: #FF6F61; /* rojo apagado */
 }
