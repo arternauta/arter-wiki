@@ -1,47 +1,48 @@
 /* Fondo general */
 .md-content {
-    background-color: #1a1a1a;   /* Gris oscuro */
-    color: #FFFAFA;              /* Texto blanco suave */
+    background-color: #EDEDED;  /* color tipo papel */
+    color: #3B3B3B;             /* texto gris oscuro */
+    font-family: 'Press Start 2P', monospace;
 }
 
-/* Títulos estilo neón */
+/* Títulos */
 h1, h2, h3, h4, h5, h6 {
-    color: #FF00FF;              /* Magenta */
-    text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+    color: #3B3B3B;
+    text-shadow: 1px 1px 0 #FFF; /* leve efecto pixel */
+    font-family: 'Press Start 2P', monospace;
 }
 
-/* Links estilo neón */
+/* Links */
 a {
-    color: #00FFFF; 
-    text-decoration: none;
-    transition: all 0.3s ease;
+    color: #FF6F61; 
+    text-decoration: underline;
 }
 
 a:hover {
-    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF;
-    color: #FF00FF;
+    color: #D94B3B;
 }
 
-/* Botones retro */
+/* Botones */
 button, .md-button {
-    background: linear-gradient(45deg, #FF00FF, #00FFFF);
-    border: 2px solid #FF00FF;
-    color: #fff;
+    background-color: #FF6F61;
+    border: 2px solid #3B3B3B;
+    color: #FFF;
     font-family: 'Press Start 2P', monospace;
-    box-shadow: 0 0 10px #FF00FF, 0 0 20px #00FFFF;
-    transition: all 0.2s ease-in-out;
+    padding: 6px 12px;
+    box-shadow: none;
 }
 
 button:hover, .md-button:hover {
-    box-shadow: 0 0 20px #FF00FF, 0 0 30px #00FFFF;
+    background-color: #D94B3B;
     transform: scale(1.05);
 }
 
 /* Código */
 code {
-    background-color: #222;
-    color: #0FF;
+    background-color: #E0E0E0;
+    color: #3B3B3B;
     font-family: 'JetBrains Mono', monospace;
+    padding: 2px 4px;
 }
 
 /* Tablas */
@@ -51,17 +52,18 @@ table {
 }
 
 th, td {
-    border: 1px solid #FF00FF;
-    padding: 8px;
+    border: 1px solid #3B3B3B;
+    padding: 6px;
     text-align: left;
+    font-family: 'Press Start 2P', monospace;
 }
 
 th {
-    background-color: #111;
-    color: #FF00FF;
+    background-color: #C0C0C0;
+    color: #3B3B3B;
 }
 
 td {
-    background-color: #1a1a1a;
-    color: #00FFFF;
+    background-color: #EDEDED;
+    color: #3B3B3B;
 }
