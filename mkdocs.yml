@@ -1,28 +1,40 @@
-site_name: Arterland — Creative Portfolio
-site_url: https://tuusuario.github.io/portfolio/
+site_name: Arterland
+site_url: https://arternauta.github.io/arter-wiki/
 site_author: Ezequiel
+
 theme:
   name: material
   language: es
   features:
-    - navigation.expand
+#    - navigation.expand
     - navigation.top
     - navigation.tracking
     - header.autohide
     - content.code.annotate
   palette:
-    primary: white
-    accent: blue
+    primary: "#3B3B3B"
+    accent: "#FF6F61"
+    background: "#EDEDED"
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: "Press Start 2P"
+    code: "JetBrains Mono"
   icon:
     logo: material/brush
+
 extra_css:
-  - recursos/estilos.css
+  - styles/retro.css
+  - styles/buttons.css
+
 nav:
   - Inicio: index.md
   - Sobre mí: about.md
+  - Portfolio:
+      - Trabajos destacados: trabajos.md       # tus proyectos más importantes
+      - Historias de fin de semana: historias.md # planificación y storytelling semanal
+  - Habilidades y Servicios: habilidades.md
+  - Clientes: clientes.md                     # logos y testimonios
+  - Blog / Casos de estudio: blog.md          # opcional
+  - Contacto: contact.md
   - Marcas:
       - BYD: marcas/byd.md
       - BMW: marcas/bmw.md
@@ -34,11 +46,7 @@ nav:
       - BMW ConnectedDrive: campañas/bmw-connecteddrive.md
       - MINI Open House: campañas/mini-open-house.md
       - Motorrad Experiencia: campañas/motorrad-experiencia.md
-  - Contacto: contact.md
+
 markdown_extensions:
   - attr_list
   - md_in_html
-extra_css:
-  - styles/retro.css
-  - styles/buttons.css
- 
