@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mis-skills" class="md-skip">
+        <a href="#skillset" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -1129,7 +1129,7 @@
 <div class="crt-hero">
   <div class="crt-scanlines"></div>
   <div class="crt-inner">
-    <h1 class="crt-title">Arter Lab v1.2</h1>
+    <h1 class="crt-title">Arter Lab v1.3</h1>
     <p class="crt-typing" id="typewriter"></p>
   </div>
 </div>
@@ -1157,38 +1157,35 @@ document.addEventListener("DOMContentLoaded", write);
 <script>
 const lines = [
   "Initializing creative protocols...",
-  "Loading assets and narrative modules...",
+  "Loading visual assets...",
+  "Compiling storytelling modules...",
   "System ready. Entering Arter Lab →"
 ];
-
-let index = 0;
-let charIndex = 0;
-let currentLine = "";
-const speed = 35;
-
+let index = 0, charIndex = 0, currentLine = "";
 function typeLine() {
   if (index < lines.length) {
     if (charIndex < lines[index].length) {
       currentLine += lines[index].charAt(charIndex);
       document.getElementById("terminalOutput").innerHTML = currentLine;
       charIndex++;
-      setTimeout(typeLine, speed);
+      setTimeout(typeLine, 35);
     } else {
       currentLine += "\n";
       document.getElementById("terminalOutput").innerHTML = currentLine;
       index++;
       charIndex = 0;
-      setTimeout(typeLine, 300);
+      setTimeout(typeLine, 250);
     }
   }
 }
-
 document.addEventListener("DOMContentLoaded", typeLine);
 </script>
 
-<p>Desde una historia que va a durar 24 horas hasta una campaña que dura meses, todo nace, crece y se desarrolla en estas páginas.
-Quieres acompañarme por los caminos que sigo para desarrollar una idea? Te comparto mi mundo.</p>
-<h1 id="mis-skills">🕹️ Mis Skills</h1>
+<p>Desde una historia que vive solo 24 horas hasta una campaña que escala durante meses,
+cada idea nace, crece y evoluciona aquí.</p>
+<p>Bienvenido a <strong>Arter Lab</strong>, mi espacio creativo donde registro, disecciono y experimento
+con narrativas visuales, contenido digital, campañas para marcas y procesos de creación.</p>
+<h1 id="skillset">🕹️ Skillset</h1>
 <table>
 <thead>
 <tr>
@@ -1239,12 +1236,11 @@ Quieres acompañarme por los caminos que sigo para desarrollar una idea? Te comp
 </tr>
 </tbody>
 </table>
-<p>Trabajos destacados / Portfolio
-Mis videos de fin de semana</p>
+<h1 id="weekend-projects">🎥 Weekend Projects</h1>
 <div class="portfolio-grid">
 
-  <!-- TARJETA 1 -->
-  <div class="portfolio-card" onclick='this.innerHTML = "<video controls autoplay width=\"100%\"><source src=\"videos/17-11-2025-SONG-PLUS.MOV\" type=\"video/mp4\"></video>"'>
+  <!-- PROYECTO 1 -->
+  <div class="portfolio-card" onclick='this.innerHTML = "<video controls autoplay class=\"portfolio-video\"><source src=\"videos/17-11-2025-SONG-PLUS.MOV\" type=\"video/mp4\"></video>"'>
     <div class="portfolio-thumb">
       <img src="images/portada-song-plus.jpeg" alt="Portada SONG PLUS">
       <span class="vhs-tag">WEEKEND PROJECT</span>
@@ -1253,7 +1249,7 @@ Mis videos de fin de semana</p>
     <button class="retro-btn">Ver video</button>
   </div>
 
-  <!-- COPIA ESTA TARJETA PARA LAS DEMÁS -->
+  <!-- PROYECTO 2 -->
   <div class="portfolio-card">
     <div class="portfolio-thumb">
       <img src="images/placeholder.jpg" alt="Proyecto 2">
@@ -1263,16 +1259,31 @@ Mis videos de fin de semana</p>
     <button class="retro-btn">Próximamente</button>
   </div>
 
+  <!-- PROYECTO 3 -->
+  <div class="portfolio-card">
+    <div class="portfolio-thumb">
+      <img src="images/placeholder.jpg" alt="Proyecto 3">
+      <span class="vhs-tag">REEL</span>
+    </div>
+    <h3>Otro proyecto</h3>
+    <button class="retro-btn">Próximamente</button>
+  </div>
+
 </div>
 
-<p>Sobre mí / Bio breve</p>
-<p>Clientes / Logos</p>
-<p>Contacto / CTA final</p>
+<h1 id="sobre-mi">👤 Sobre mí</h1>
+<p>Soy Ezequiel, creativo y content creator enfocado en narrativas visuales,
+videos de estética vintage, campañas para marcas y storytelling aplicado
+a redes sociales.</p>
+<p>Trabajo en campos que van desde contenido diario hasta conceptualización
+de campañas completas para marcas como <strong>BMW, MINI, BYD y Motorrad</strong>.</p>
+<h1 id="clientes">🤝 Clientes</h1>
+<p>Aquí podrás ver una selección de marcas con las que he trabajado,
+incluyendo automotriz, lifestyle y tecnología.</p>
 <p><img alt="" src="images/IMG_4419_nofondo.png" /></p>
-<video width="auto" poster="reels/test.png"controls>
-  <source src="videos/test.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
+<h1 id="hablamos">📬 ¿Hablamos?</h1>
+<p>Si quieres producir una historia, una campaña o una serie de contenido:</p>
+<p>👉 <strong>Envíame un mensaje desde la sección Contacto.</strong></p>
 
 
 
