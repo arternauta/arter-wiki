@@ -56,6 +56,8 @@
     
       <link rel="stylesheet" href="styles/hero-crt.css">
     
+      <link rel="stylesheet" href="styles/terminal.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1126,6 +1128,45 @@ function write() {
   }
 }
 document.addEventListener("DOMContentLoaded", write);
+</script>
+
+<div class="terminal-intro">
+  <div class="terminal-screen">
+    <pre id="terminalOutput"></pre>
+    <span class="terminal-cursor">█</span>
+  </div>
+</div>
+
+<script>
+const lines = [
+  "Initializing creative protocols...",
+  "Loading assets and narrative modules...",
+  "System ready. Entering Arter Lab →"
+];
+
+let index = 0;
+let charIndex = 0;
+let currentLine = "";
+const speed = 35;
+
+function typeLine() {
+  if (index < lines.length) {
+    if (charIndex < lines[index].length) {
+      currentLine += lines[index].charAt(charIndex);
+      document.getElementById("terminalOutput").innerHTML = currentLine;
+      charIndex++;
+      setTimeout(typeLine, speed);
+    } else {
+      currentLine += "\n";
+      document.getElementById("terminalOutput").innerHTML = currentLine;
+      index++;
+      charIndex = 0;
+      setTimeout(typeLine, 300);
+    }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", typeLine);
 </script>
 
 <p>Desde una historia que va a durar 24 horas hasta una campaña que dura meses, todo nace, crece y se desarrolla en estas páginas.
