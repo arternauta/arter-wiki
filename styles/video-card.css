@@ -1,0 +1,25 @@
+.video-card {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.video-card .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  max-width: 20%;
+  opacity: 0.9;
+}
+

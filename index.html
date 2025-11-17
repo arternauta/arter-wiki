@@ -52,6 +52,8 @@
     
       <link rel="stylesheet" href="styles/buttons.css">
     
+      <link rel="stylesheet" href="styles/video-card.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -913,34 +915,7 @@ Quieres acompañarme por los caminos que sigo para desarrollar una idea? Te comp
 </table>
 <p>Trabajos destacados / Portfolio
 Mis videos de fin de semana</p>
-<style>
-.video-card {
-  position: relative;
-  cursor: pointer;
-  width: 100%;
-  max-width: 420px; /* límite para que no sea gigante */
-  margin: 0 auto; /* centra en la página */
-}
-
-.video-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-}
-
-.video-card .play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 64px;       /* tamaño ideal en mobile */
-  max-width: 20%;    /* evita que se vea enorme */
-  opacity: 0.9;
-}
-</style>
-
-<div class="video-card" onclick="this.innerHTML = '<video controls autoplay width=&quot;100%&quot;><source src=&quot;videos/17-11-2025-SONG-PLUS.mp4&quot; type=&quot;video/mp4&quot;></video>'">
+<div class="video-card" onclick='this.innerHTML = "<video controls autoplay width=\"100%\"><source src=\"videos/17-11-2025-SONG-PLUS.mp4\" type=\"video/mp4\"></video>"'>
   <img src="images/portada-song-plus.jpeg" alt="Portada">
   <img class="play-btn" src="images/play-icon.png" alt="Play">
 </div>
