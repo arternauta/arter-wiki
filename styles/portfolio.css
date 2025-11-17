@@ -1,0 +1,76 @@
+/* Grid */
+.portfolio-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  margin: 40px 0;
+}
+
+/* Card */
+.portfolio-card {
+  background: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-6px) rotate3d(1, 1, 0, 3deg);
+  box-shadow: 0 8px 18px rgba(0, 255, 180, 0.15);
+}
+
+/* Thumbnail */
+.portfolio-thumb {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.portfolio-thumb img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* VHS Tag */
+.vhs-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #0affb8;
+  color: #0c0c0c;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-family: "Press Start 2P", monospace;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Title */
+.portfolio-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #eee;
+  font-family: "Press Start 2P", monospace;
+  line-height: 1.4;
+}
+
+/* Button retro */
+.retro-btn {
+  background: #0affb8;
+  border: none;
+  padding: 8px 14px;
+  color: #0c0c0c;
+  font-family: "Press Start 2P", monospace;
+  font-size: 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.retro-btn:hover {
+  background: #09cfa2;
+}
