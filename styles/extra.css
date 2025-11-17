@@ -1,0 +1,116 @@
+/* ---------------------------------------
+   1) Refinar color de enlaces y hover
+----------------------------------------*/
+.md-typeset a {
+    text-decoration: none;
+    transition: color .15s ease, opacity .15s ease;
+}
+.md-typeset a:hover {
+    opacity: .75;
+}
+
+/* ---------------------------------------
+   2) Titulares más elegantes
+----------------------------------------*/
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+.md-typeset h2,
+.md-typeset h3 {
+    font-weight: 600;
+}
+
+/* ---------------------------------------
+   3) Mejorar los bloques de código
+----------------------------------------*/
+.md-typeset pre code {
+    border-radius: 8px;
+    padding: 1rem !important;
+    font-size: .9rem;
+}
+
+/* Etiquetas del copy button */
+.md-clipboard {
+    border-radius: 6px !important;
+}
+
+/* ---------------------------------------
+   4) Tarjetas estilo “Material"
+----------------------------------------*/
+.card {
+    border-radius: 14px;
+    padding: 1.2rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    background: var(--md-default-bg-color);
+    box-shadow: 0 2px 6px rgba(0,0,0,.06);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 14px rgba(0,0,0,.12);
+}
+
+/* ---------------------------------------
+   5) Tablas mejoradas
+----------------------------------------*/
+.md-typeset table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.md-typeset table thead th {
+    background: var(--md-primary-fg-color);
+    color: white;
+    font-weight: 600;
+}
+.md-typeset table tbody tr:nth-child(even) {
+    background: var(--md-default-bg-color--light);
+}
+
+/* ---------------------------------------
+   6) Mejorar el TOC integrado
+----------------------------------------*/
+.md-nav__item--active > .md-nav__link {
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+
+/* ---------------------------------------
+   7) Ancho de contenido un poco mayor
+----------------------------------------*/
+.md-grid {
+    max-width: 1200px;
+}
+
+/* ---------------------------------------
+   8) Paneles de admonition más limpios
+----------------------------------------*/
+.md-typeset .admonition {
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+}
+.md-typeset .admonition-title {
+    font-weight: 600;
+    font-size: .92rem;
+}
+
+/* ---------------------------------------
+   9) “Pill labels” para resaltar palabras
+----------------------------------------*/
+.pill {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: .75rem;
+    border-radius: 50px;
+    background: var(--md-accent-fg-color--transparent);
+    color: var(--md-accent-fg-color);
+    border: 1px solid var(--md-accent-fg-color);
+}
+
+/* ---------------------------------------
+   10) Ajuste suave entre modo claro/oscuro
+----------------------------------------*/
+:root,
+[data-md-color-scheme] {
+    transition: background-color .25s ease, color .25s ease;
+}
