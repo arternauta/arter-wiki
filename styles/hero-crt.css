@@ -1,0 +1,47 @@
+.crt-hero {
+  position: relative;
+  background: #111;
+  border: 3px solid #333;
+  border-radius: 14px;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+}
+
+.crt-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #00ff99;
+  font-family: "Press Start 2P", monospace;
+}
+
+.crt-title {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.crt-typing {
+  font-size: 14px;
+  min-height: 20px;
+}
+
+.crt-scanlines {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0) 2px,
+    rgba(0,0,0,0.15) 3px
+  );
+  animation: scan 6s linear infinite;
+}
+
+@keyframes scan {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+  100% { opacity: 0.2; }
+}
