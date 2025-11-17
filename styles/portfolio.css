@@ -74,3 +74,48 @@
 .retro-btn:hover {
   background: #09cfa2;
 }
+
+/* GRID EN DESKTOP */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.video-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.video-card video {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* CARRUSEL EN MOBILE */
+.video-carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.video-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.video-item {
+  flex: 0 0 80%;
+  max-width: 80%;
+  scroll-snap-align: start;
+}
+
+.video-item video {
+  width: 100%;
+  border-radius: 10px;
+}
